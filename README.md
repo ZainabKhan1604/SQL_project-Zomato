@@ -36,6 +36,39 @@ Welcome to the Zomato Analytics project, a comprehensive SQL-based exploration o
 
 This Zomato Analytics project aims to showcase not only your SQL proficiency but also your ability to derive meaningful insights from complex data structures. The queries address various aspects of user behavior, membership trends, and point generation, providing a holistic view of the application's performance. The code and results for these queries can be explored in the repository, demonstrating your skills in database management and analysis.
 
+# Key findings:
+The key findings of the Zomato Analytics project are as follows:
+
+1) User Spending Patterns: Identified the total amount spent by each customer on the Zomato platform, offering insights into user expenditure.
+
+2) Initial Purchase Insights:Determined the first product purchased by each customer, shedding light on the entry points of user engagement.
+   product with product id 1 was the first product purchased by all the customers.
+
+3) Menu Item Popularity: Discovered the most purchased item on the menu, providing valuable information for menu optimization and marketing.
+   Products with product id 2 and 3 were found out to be most popular items.
+
+4) Customer Preferences: Established the most popular item for each customer, allowing for personalized marketing strategies and menu recommendations.
+   product with product id 3 was most popular for user id 1 and 3 whereas for user id 2 the most  popular item was product 1.
+
+5) Gold Membership Impact: Explored purchasing behavior before and after users became Gold Members, understanding the influence of membership on user transactions.
+   First item purchased after becoming gold member- userid 1 purchased product id 3 and user id 3 purchased product id 2.
+   Last item purchased before becoming gold member- Both userid 1 and 3 purchased product id 2.
+
+6) Zomato Points System: Implemented a points system for purchases, revealing the product that generated the most points and enhancing customer engagement.
+   Total Zomato points earned by each user : user id 1 = 1829 points ; user id 2 = 763 points ; user id 3 = 1697 points.
+
+7) First-Year Gold Member Points: Calculated Zomato points earned by gold members in their first year, considering the additional points awarded during this period.
+   Total points earned in first year of gold membership : user id 1 = 165 points ; user id 3 = 435 points
+
+8) Comparative Point Earnings: Compared point earnings between specific users, providing insights into individual user loyalty and engagement. 
+   User with userid 3 had most zomato points who earned 435 points in total.
+
+9) Transaction Rankings: Ranked all transactions, both overall and for gold and non-gold members separately, facilitating a deeper understanding of transaction dynamics.
+
+# CONCLUSION
+These findings collectively offer a comprehensive view of user behavior, preferences, and the impact of the gold membership program. The project showcases your ability 
+to extract meaningful insights from a relational database, providing valuable information for strategic decision-making within the context of a food service provider app like Zomato.
+
 
 
 
